@@ -1,0 +1,53 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "water"
+end
+%pal nprocs 4 end
+* xyz 0 1
+O         -2.91780        0.09520       -0.14620
+N         -2.03930       -0.76590       -0.19320
+O         -2.27550       -1.94450       -0.33500
+C         -0.68680       -0.34580       -0.07470
+C          0.31110       -1.32590       -0.12860
+C          1.63500       -0.98010       -0.01970
+C          1.98170        0.36030        0.14570
+C          1.01360        1.33500        0.20060
+C         -0.34610        1.01310        0.09250
+O         -1.22920        2.00390        0.15390
+H          0.00460       -2.35270       -0.25750
+H          2.39980       -1.73850       -0.06180
+H          3.02100        0.63780        0.23170
+H          1.26740        2.37500        0.32810
+H         -2.13940        1.63290        0.06430
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "water"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

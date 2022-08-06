@@ -1,0 +1,68 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "methanol"
+end
+%pal nprocs 4 end
+* xyz 0 1
+O         -3.45930        2.56170        0.19720
+C         -2.57910        1.72200        0.08240
+C         -1.19680        2.07370       -0.15520
+C         -0.18840        1.17110       -0.27960
+N          1.09670        1.57650       -0.47720
+C          2.26550        0.84720       -0.26780
+C          3.39320        1.15530       -1.02750
+C          4.57920        0.47650       -0.83030
+C          4.62900       -0.51060        0.13740
+F          5.78450       -1.17770        0.33510
+C          3.53090       -0.81770        0.92130
+C          2.35150       -0.12830        0.72440
+C         -0.50510       -0.28340       -0.41660
+O          0.27170       -1.06230       -0.93080
+C         -1.85770       -0.68030        0.01410
+C         -2.14910       -2.03440        0.16020
+C         -3.41670       -2.43970        0.53750
+C         -4.40850       -1.49630        0.75940
+C         -4.13090       -0.14860        0.60540
+C         -2.85830        0.27120        0.23910
+H         -0.98120        3.13370       -0.19450
+H          1.22260        2.54180       -0.75260
+H          3.33290        1.92440       -1.78330
+H          5.45610        0.69980       -1.41670
+H          3.61030       -1.57960        1.68010
+H          1.49570       -0.34240        1.34560
+H         -1.36500       -2.75320       -0.02650
+H         -3.63360       -3.49110        0.65320
+H         -5.39970       -1.81220        1.04860
+H         -4.89050        0.60250        0.76360
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "methanol"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

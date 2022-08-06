@@ -1,0 +1,70 @@
+! wb97x-d3 aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dichloromethane"
+end
+%pal nprocs 4 end
+* xyz 0 1
+C          4.77420        1.63780        1.76330
+C          3.81630        0.77330        1.01460
+C          3.88450        0.52050       -0.31330
+C          2.90810       -0.33290       -0.90840
+O          2.92630       -0.57610       -2.22540
+C          1.91360       -0.86660       -0.12770
+C          0.93720       -1.85680       -0.69260
+O          1.32790       -2.85030       -1.26890
+C         -0.48320       -1.56900       -0.50450
+C         -0.97210       -0.36870       -0.16210
+C         -2.36670       -0.01160        0.00320
+C         -2.68450        1.28840        0.40560
+C         -4.00130        1.67060        0.57940
+C         -5.02800        0.77430        0.35400
+C         -4.72930       -0.52660       -0.04770
+O         -5.76350       -1.38110       -0.26130
+C         -3.40970       -0.91280       -0.22110
+C          1.86060       -0.58470        1.28590
+O          1.05850       -0.99880        2.08230
+O          2.85470        0.25690        1.77900
+H          5.53160        2.04190        1.09990
+H          5.25080        1.05610        2.55030
+H          4.23510        2.45280        2.24290
+H          4.66780        0.95090       -0.91650
+H          3.70140       -0.17760       -2.64210
+H         -1.12870       -2.40770       -0.72070
+H         -0.27690        0.44310        0.01320
+H         -1.88930        1.99570        0.58790
+H         -4.23310        2.67730        0.89340
+H         -6.06130        1.05400        0.48210
+H         -5.42750       -2.24770       -0.52110
+H         -3.19390       -1.92450       -0.53350
+*
+
+
+$new_job
+! wb97x-d3 aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dichloromethane"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

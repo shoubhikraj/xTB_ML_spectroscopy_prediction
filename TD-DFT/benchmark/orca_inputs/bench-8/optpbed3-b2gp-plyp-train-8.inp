@@ -1,0 +1,74 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dichloromethane"
+end
+%pal nprocs 4 end
+* xyz 0 1
+N          5.18490        2.63730       -4.83100
+C          4.41990        2.18600       -4.10520
+C          3.47960        1.62540       -3.21360
+C          3.81050        0.48660       -2.47740
+C          2.89070       -0.06950       -1.61400
+C          1.61870        0.49270       -1.47470
+C          0.61840       -0.03480       -0.57060
+N         -0.23240        0.73970        0.07850
+C         -0.98250       -0.03610        0.88210
+C         -1.98970        0.53960        1.75660
+C         -2.34920       -0.05530        2.96470
+C         -3.31410        0.52360        3.76750
+C         -3.92820        1.70400        3.38340
+C         -3.56060        2.31420        2.19460
+C         -2.59840        1.73970        1.38830
+C         -0.61200       -1.37630        0.69960
+C         -1.07960       -2.61750        1.16040
+C         -0.51410       -3.76710        0.69320
+C          0.51450       -3.70090       -0.27770
+C          0.95240       -2.50220       -0.73580
+N          0.42230       -1.34920       -0.24000
+C          1.30890        1.65410       -2.19150
+C          2.22270        2.21520       -3.05360
+H          4.79400        0.05190       -2.58240
+H          3.18170       -0.91920       -1.01440
+H         -1.85040       -0.95500        3.29260
+H         -3.58420        0.05460        4.70290
+H         -4.68310        2.15140        4.01310
+H         -4.02820        3.24160        1.89740
+H         -2.29980        2.20590        0.46230
+H         -1.89870       -2.63830        1.86010
+H         -0.85840       -4.73030        1.03380
+H          0.93860       -4.60940       -0.67300
+H          1.69130       -2.40820       -1.51490
+H          0.33660        2.09850       -2.05020
+H          1.97830        3.10720       -3.61130
+*
+
+
+$new_job
+! b2gp-plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dichloromethane"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

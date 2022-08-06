@@ -1,0 +1,68 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "cyclohexane"
+end
+%pal nprocs 4 end
+* xyz 0 1
+N          0.68620       -1.76300        4.40860
+C          0.52070       -1.33720        3.35720
+C          0.31700       -0.81420        2.06580
+C         -0.95910       -0.59470        1.52830
+N         -2.18700       -0.80840        2.06060
+C         -3.04910       -0.43530        1.14190
+C         -4.45590       -0.44780        1.17740
+C         -5.15190       -0.00700        0.09070
+C         -4.47820        0.45950       -1.06410
+C         -3.12040        0.47260       -1.10080
+N         -2.42750        0.03570       -0.02400
+C         -1.08300       -0.05880        0.20490
+N         -0.10700        0.27490       -0.62350
+C          1.08380        0.05710       -0.08980
+C          1.37370       -0.46990        1.21110
+N          2.71430       -0.54610        1.39410
+C          3.25660       -0.09790        0.28440
+C          4.61540        0.03780       -0.05610
+C          4.94680        0.53360       -1.28240
+C          3.94480        0.91040       -2.20930
+C          2.63270        0.78040       -1.88310
+N          2.30120        0.28880       -0.66700
+H         -4.93620       -0.80880        2.07090
+H         -6.23070       -0.00910        0.09950
+H         -5.04280        0.80440       -1.91420
+H         -2.53380        0.81170       -1.94050
+H          5.35130       -0.25810        0.67210
+H          5.98310        0.64470       -1.56120
+H          4.22330        1.30040       -3.17410
+H          1.81150        1.04420       -2.53140
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "cyclohexane"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

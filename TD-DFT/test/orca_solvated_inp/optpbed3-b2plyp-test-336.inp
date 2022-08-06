@@ -1,0 +1,63 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "diethyl ether"
+end
+%pal nprocs 4 end
+* xyz 0 1
+C         -1.83130       -0.00280        1.85510
+N         -1.84280       -0.60580        0.55030
+C         -2.92060       -1.24040        0.02950
+C         -2.66090       -1.57970       -1.27350
+C         -1.37610       -1.10780       -1.56680
+C         -0.87970       -0.51580       -0.41880
+C          0.43450        0.07930       -0.25710
+C          0.91550        0.93130       -1.24970
+C          2.17530        1.50990       -1.14450
+C          2.63600        2.37700       -2.16380
+N          3.01310        3.07970       -2.98660
+C          2.98870        1.25020       -0.03630
+C          2.54100        0.38670        0.93810
+C          1.28120       -0.20910        0.83150
+C          0.91730       -1.16840        1.80130
+N          0.65880       -1.96130        2.58890
+H         -1.62960       -0.74550        2.63100
+H         -1.06680        0.77180        1.90600
+H         -2.80270        0.45390        2.05190
+H         -3.80150       -1.39860        0.62010
+H         -3.31770       -2.10250       -1.93930
+H         -0.84620       -1.21840       -2.49250
+H          0.29180        1.15150       -2.10320
+H          3.95960        1.71520        0.03960
+H          3.16320        0.15000        1.78870
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "diethyl ether"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

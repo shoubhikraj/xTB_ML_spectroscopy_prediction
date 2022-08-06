@@ -1,0 +1,72 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "toluene"
+end
+%pal nprocs 4 end
+* xyz 0 1
+O         -3.73670        1.25960       -0.73010
+C         -2.64590        0.88210       -0.34100
+C         -2.36900       -0.50170        0.07140
+C         -3.43880       -1.36150        0.32620
+C         -3.22440       -2.62560        0.82600
+C         -1.92640       -3.03040        1.11670
+C         -0.85460       -2.20330        0.85480
+C         -1.05480       -0.94260        0.28570
+N          0.01530       -0.09680       -0.00010
+C          1.29460       -0.57100       -0.28450
+C          1.49410       -1.83290       -0.85090
+C          2.76910       -2.28890       -1.11130
+C          3.87830       -1.50220       -0.82170
+C          3.69140       -0.23270       -0.32460
+C          2.40810        0.25500       -0.07140
+C          2.24360        1.65730        0.33810
+O          3.16430        2.35430        0.72620
+C          0.87200        2.15770        0.16300
+C          0.63530        3.52990        0.17240
+C         -0.63920        4.03460       -0.00380
+C         -1.69520        3.16030       -0.17880
+C         -1.49620        1.78220       -0.16710
+C         -0.20020        1.26390       -0.00140
+H         -4.43350       -0.98900        0.13270
+H         -4.05470       -3.28690        1.01860
+H         -1.74990       -3.99780        1.56250
+H          0.14220       -2.51900        1.12180
+H          0.64380       -2.44190       -1.11700
+H          2.90040       -3.26440       -1.55500
+H          4.87250       -1.87490       -1.01310
+H          4.52210        0.42940       -0.13210
+H          1.48440        4.18060        0.31980
+H         -0.80800        5.10010       -0.00470
+H         -2.70380        3.51650       -0.32710
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "toluene"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

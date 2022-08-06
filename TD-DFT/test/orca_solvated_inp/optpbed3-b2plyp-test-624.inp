@@ -1,0 +1,68 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dimethylsulfoxide"
+end
+%pal nprocs 4 end
+* xyz 0 1
+N          4.95540       -0.47350        0.10920
+C          3.62190       -0.21380        0.17100
+C          2.70090       -1.24980        0.41140
+C          1.35260       -1.01130        0.38570
+C          0.84290        0.27060        0.12190
+C          1.77250        1.32370        0.00310
+C          3.13590        1.07870       -0.00870
+O          1.38370        2.61040       -0.09700
+C          0.08570        3.01240        0.13690
+O         -0.11540        4.19060        0.21140
+C         -0.91040        1.94190        0.19650
+C         -2.29870        2.33740        0.43550
+O         -2.71200        3.44650        0.61650
+O         -3.20650        1.30330        0.53500
+C         -2.91570        0.05060        0.13220
+C         -3.98040       -0.84160        0.01140
+C         -3.76000       -2.10670       -0.48690
+C         -2.48600       -2.47930       -0.90300
+C         -1.42470       -1.61470       -0.75260
+C         -1.60570       -0.35190       -0.17510
+C         -0.55030        0.61530        0.04960
+H          5.29500       -1.35990        0.43800
+H          5.59910        0.29800        0.11580
+H          3.07070       -2.24080        0.62830
+H          0.67270       -1.81140        0.62920
+H          3.80910        1.91210       -0.13080
+H         -4.96600       -0.50280        0.28690
+H         -4.58470       -2.79510       -0.58910
+H         -2.32850       -3.44720       -1.35350
+H         -0.45340       -1.89190       -1.12890
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dimethylsulfoxide"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

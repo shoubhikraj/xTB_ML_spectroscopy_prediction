@@ -1,0 +1,67 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dichloromethane"
+end
+%pal nprocs 4 end
+* xyz 0 1
+C          2.62930       -0.14420        0.15360
+C          1.50970        0.14900        0.50440
+C          0.20780        0.48040        0.88940
+N         -0.14540        1.11070        1.97960
+C         -1.49190        1.20230        1.91580
+C         -1.93610        0.60890        0.75460
+C         -3.25140        0.42420        0.18380
+C         -4.38860        0.87810        0.85420
+C         -5.63930        0.69610        0.29780
+C         -5.77550        0.06310       -0.92790
+C         -4.65110       -0.38980       -1.59880
+C         -3.39630       -0.21260       -1.05010
+O         -0.84010        0.14870        0.10290
+C          3.93490       -0.47690       -0.24510
+C          5.04850       -0.07080        0.49650
+C          6.30720       -0.42570        0.04940
+C          6.41230       -1.17120       -1.11760
+N          5.36460       -1.56170       -1.82560
+C          4.16290       -1.22760       -1.40650
+H         -2.04680        1.68180        2.69510
+H         -4.28640        1.37060        1.80860
+H         -6.51490        1.04940        0.82220
+H         -6.75580       -0.07660       -1.35840
+H         -4.75330       -0.88310       -2.55410
+H         -2.51740       -0.56370       -1.56970
+H          4.91240        0.50880        1.39790
+H          7.19110       -0.13070        0.59340
+H          7.37590       -1.47150       -1.50680
+H          3.33320       -1.56600       -2.01300
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dichloromethane"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

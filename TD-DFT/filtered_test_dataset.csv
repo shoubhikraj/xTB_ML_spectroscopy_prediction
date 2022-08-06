@@ -1,0 +1,201 @@
+,SMILES,lambda_max_exp_nm,solvent,reference,description,mol_wt,abs_max_ev
+441,Cc1cc(C(F)(F)F)nc2c1ccc1nc(-c3ccc(F)c(F)c3)cn12,372.0,hexane,https://doi.org/10.1016/S1386-1425(99)00200-0,DBtag:12461,363.0794884,3.333
+265,COc1ccc(-c2cnc(-c3ccccc3)o2)cc1OC,322.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11683,281.1051933,3.85
+443,Cc1cc(-c2ccccc2)nc2c1ccc1nc(-c3ccccc3)cn12,351.0,benzene,https://doi.org/10.1016/S1386-1425(99)00200-0,DBtag:12479,335.1422475,3.532
+612,CCOC(=O)c1cc(C(=O)OCC)c2cc(N)ccc2n1,421.0,ethanol,DOI: 10.1021/jo301652j,DBtag:18512,288.111007,2.945
+274,COc1ccc(-c2cnc(/C=C/c3ccccc3)o2)cc1OC,350.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11692,307.1208434,3.542
+499,O=c1oc2ccccc2nc1-c1ccc(Cl)cc1,344.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12778,257.0243562,3.604
+188,O=C(O)CCNc1cccc2ccccc12,330.0,ethanol,https://doi.org/10.1016/j.tet.2007.09.042,DBtag:11360,215.0946287,3.757
+323,CCCCc1cc(-c2cccc(COC)c2)oc1-c1cccc(COC)c1,326.0,chloroform,https://doi.org/10.1016/j.tet.2009.09.077,DBtag:11822,364.2038448,3.803
+589,O=C1C=C(Nc2ccc(F)cc2)C(=O)c2ccccc21,461.0,methanol,https://doi.org/10.1016/j.molstruc.2014.03.044,DBtag:13870,267.0695568,2.689
+283,N#Cc1ccc(C#Cc2ncc(-c3ccccc3)o2)cc1,345.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11701,270.0793129,3.594
+382,F[B-]1(F)OC(c2ccccc2)=Cc2c3ccccc3c3ccccc3[n+]21,432.0,chloroform,DOI: 10.1021/acs.joc.6b02732,DBtag:12159,345.1136509,2.87
+551,Clc1ccc(/C=C(\c2ccccc2)c2nc3ccccc3o2)cc1,330.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13033,331.0763917,3.757
+313,F[B-]1(F)n2c(nc(-c3ccccc3)c2-c2ccccc2)-c2cccc[n+]21,428.0,hexane,https://doi.org/10.1016/j.dyepig.2014.01.022,DBtag:11773,345.1248843,2.897
+484,C(=C/c1ccnc2ccccc12)\c1ccc(/C=C/c2ccnc3ccccc23)cc1,374.0,ethanol,https://doi.org/10.1016/S1386-1425(99)00050-5,DBtag:12730,384.1626486,3.315
+566,COC(=O)c1ccc(/N=N/c2cc3c4c(c2)CCCN4CCC3)cc1,474.0,ethyl ethanoate,https://doi.org/10.1016/j.dyepig.2017.11.002,DBtag:13150,335.1633769,2.616
+180,Cc1ccc(C(=O)/C=C2\C(=O)Nc3ccccc32)cc1C,333.0,hexane,https://doi.org/10.1016/j.molstruc.2011.12.043,DBtag:11272,277.1102787,3.723
+294,F[B-]1(F)N(c2ccccc2)C=Cc2cccc[n+]21,442.0,cyclohexane,https://doi.org/10.1016/j.cplett.2009.07.075,DBtag:11713,244.0983352,2.805
+284,C(#Cc1cccc2ccccc12)c1ncc(-c2ccccc2)o1,350.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11702,295.099714,3.542
+631,CN1/C(=C/C=C/C=O)C(C)(C)c2ccccc21,410.0,dimethylsulfoxide,DOI: 10.1021/ol802913b,DBtag:20061,227.1310142,3.024
+175,CC(=O)c1nc(-c2ccc(N(C)C)cc2)oc1C,315.0,hexane,https://doi.org/10.1016/j.saa.2012.10.005,DBtag:11224,244.1211778,3.936
+570,CCN1CCN(c2ccc(/N=N/c3ccc([N+](=O)[O-])cc3)cc2)CC1,448.0,ethyl ethanoate,https://doi.org/10.1016/j.dyepig.2017.11.002,DBtag:13154,339.1695249,2.768
+281,COc1ccc(-c2cnc(C#Cc3ccccc3)o2)cc1OC,330.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11699,305.1051933,3.757
+537,Cc1ccc(/C=C/c2nc3ccccc3s2)cc1,345.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13019,251.0768704,3.594
+102,CCn1c2ccccc2c2cc(/C=C3\C(=O)c4ccccc4S3(=O)=O)ccc21,453.0,toluene,https://doi.org/10.1016/j.saa.2018.05.101,DBtag:10795,387.0929144,2.737
+405,C1=C(c2ccccc2)C(c2ccccc2)C(c2ccccc2)=C1,304.0,tetrahydrofuran,DOI: 10.1021/acs.jpcc.7b02125,DBtag:12241,294.1408506,4.078
+504,O=c1oc2ccc3ccccc3c2nc1-c1ccc(Cl)cc1,404.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12784,307.0400062,3.069
+617,CNc1cc2nc3cc(F)c(F)cc3nc2cc1NC,434.0,ethanol,DOI: 10.1021/acs.joc.5b01339,DBtag:18628,274.1030028,2.857
+531,C/C(=C\c1ccc(C)cc1)c1nc2ccccc2s1,320.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13013,265.0925205,3.875
+286,C(#Cc1ncc(-c2ccccc2)o1)c1cccnc1,330.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11704,246.0793129,3.757
+272,C(=C/c1cccc2ccccc12)\c1ncc(-c2ccccc2)o1,357.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11690,297.1153641,3.473
+585,CCNc1ccc(NCC)c2c1C(=O)c1ccccc1C2=O,644.0,dimethylsulfoxide,https://doi.org/10.1016/j.saa.2011.02.003,DBtag:13539,294.1368278,1.925
+618,CNc1ccc2nc3cc(Cl)c(Cl)cc3nc2c1,490.0,ethanol,DOI: 10.1021/acs.joc.5b01339,DBtag:18631,277.0173526,2.53
+337,O=C1c2ccccc2-c2cnccc21,394.1618587,hexane,https://doi.org/10.1016/S1010-6030(01)00597-4,DBtag:11870,181.0527638,3.146
+6,N#CC1=C(N)n2c(=O)c3ccccc3c(=O)n2C1c1cccs1,354.0,dimethylsulfoxide,doi:10.1016/j.tetlet.2011.08.111,DBtag:10304,322.0524466,3.502
+289,CN(C)c1ccc(/C=C/c2cnc(-c3ccncc3)o2)cc1,396.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11707,291.1371622,3.131
+534,Cc1ccc(/C=C(\c2ccccc2)c2nc3ccccc3s2)cc1,340.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13016,327.1081705,3.647
+132,CC(=O)Nc1ccc(O)cc1,293.0,tetrahydrofuran,https://doi.org/10.1016/j.bpc.2008.09.004,DBtag:11047,151.0633285,4.232
+129,CCOC(=O)CSc1nc(-c2ccc(OC)cc2)c(C)c(C#N)c1C#N,374.0,benzene,https://doi.org/10.1016/j.tet.2019.130465,DBtag:11026,367.0990624,3.315
+307,C[C@]12SC(=O)C=C1c1nc(-c3ccc(O)cc3)[nH]c1C1=CC(=O)S[C@@]12C,470.0,acetonitrile,https://doi.org/10.1016/j.tet.2012.12.057,DBtag:11746,382.0445843,2.638
+535,Clc1ccc(/C=C(\c2ccccc2)c2nc3ccccc3s2)cc1,340.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13017,347.0535481,3.647
+334,N#Cc1ccc(-n2cccc2)cc1,287.0,diethyl ether,https://doi.org/10.1016/j.cplett.2005.06.019,DBtag:11844,168.0687483,4.32
+173,CC(=O)c1nc(-c2ccc(C)cc2)oc1C,272.0,hexane,https://doi.org/10.1016/j.saa.2012.10.005,DBtag:11212,215.0946287,4.558
+512,Cc1nc2c(ccc3ccc(N(C)C)cc32)oc1=O,426.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12792,254.1055277,2.91
+379,COc1ccc(C2=Cc3c4ccccc4c4ccccc4[n+]3[B-](F)(F)O2)cc1,444.0,chloroform,DOI: 10.1021/acs.joc.6b02732,DBtag:12156,375.1242156,2.792
+563,O=[N+]([O-])c1ccc(/N=N/c2cc3c4c(c2)CCCN4CCC3)cc1,513.0,ethyl ethanoate,https://doi.org/10.1016/j.dyepig.2017.11.002,DBtag:13147,322.1429758,2.417
+69,C#Cc1ccc2cc(/C=C/C(=O)OCC)c(=O)oc2c1,360.0,ethanol,https://doi.org/10.1016/j.dyepig.2009.01.001,DBtag:10572,268.0735589,3.444
+624,Nc1ccc2c(c1)oc(=O)c1c(=O)oc3ccccc3c12,438.0,dimethylsulfoxide,DOI: 10.1021/jo501565r,DBtag:19063,279.0531578,2.831
+590,O=C1C=C(Nc2cccc(F)c2F)C(=O)c2ccccc21,439.0,methanol,https://doi.org/10.1016/j.molstruc.2014.03.044,DBtag:13871,285.060135,2.824
+119,CCOC(=O)CSc1nc(-c2ccccc2)c(C)c(C#N)c1C#N,372.0,benzene,https://doi.org/10.1016/j.tet.2019.130465,DBtag:11006,337.0884977,3.333
+487,CCCCN1C(=S)c2cccc3c(N(C)C)ccc(c23)C1=S,571.0,acetonitrile,https://doi.org/10.1021/jacs.9b09220,DBtag:12753,328.1067906,2.171
+571,CCN1CCN(c2ccc(/N=N/c3ccc(C#N)cc3)cc2)CC1,428.0,ethyl ethanoate,https://doi.org/10.1016/j.dyepig.2017.11.002,DBtag:13155,319.1796957,2.897
+165,CCOC(=O)c1cccc(N(C)C)c1,334.6153846,hexane,https://doi.org/10.1016/S0009-2614(99)00316-4,DBtag:11147,193.1102787,3.705
+195,CC1(C)CC(=O)C2=C(C1)Oc1ccc3ccccc3c1C2c1ccccn1,275.0,methanol,https://doi.org/10.1016/j.jphotochem.2013.11.014,DBtag:11400,355.1572289,4.509
+66,C#Cc1ccc2cc3c(C)cc(=O)oc3cc2c1,334.0,ethanol,https://doi.org/10.1016/j.dyepig.2009.01.001,DBtag:10569,234.0680796,3.712
+51,CC1=[N+]2C(=c3c4c5ccccc5cc5cccc(c6cc(C)n(c36)[B-]2(F)F)c54)C=C1,583.0,hexane,https://doi.org/10.1016/j.dyepig.2015.11.028,DBtag:10521,394.1452854,2.127
+171,c1ccc2c(-n3cnc4ccccc43)cccc2c1,283.0,cyclohexane,https://doi.org/10.1016/j.cplett.2005.12.092,DBtag:11194,244.1000484,4.381
+48,CCCCn1cc(/C=C/c2cc(=O)oc3cc(C)ccc23)c2ccccc21,398.0,chloroform,https://doi.org/10.1016/j.dyepig.2015.04.018,DBtag:10509,357.172879,3.115
+273,COc1ccc(-c2cnc(/C=C/c3ccc(OC)c(OC)c3)o2)cc1,360.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11691,337.1314081,3.444
+65,Cc1cc(=O)oc2ccc3ccc(-c4cn(Cc5ccccc5)nn4)cc3c12,352.0,ethanol,https://doi.org/10.1016/j.dyepig.2009.01.001,DBtag:10567,367.1320768,3.522
+80,CCCSc1ccc2n1[B-](F)(F)[N+]1=C(SC#N)C=CC1=C2c1ccccc1,555.0,hexane,https://doi.org/10.1016/j.dyepig.2018.01.043,DBtag:10623,399.0846764,2.234
+506,COc1ccc2ccc3oc(=O)c(-c4ccccc4)nc3c2c1,404.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12786,303.0895433,3.069
+620,Clc1cnc2nn3ccccc3c2n1,404.0,tetrahydrofuran,DOI: 10.1021/jo801549u,DBtag:18674,204.0202738,3.069
+541,COc1ccc(/C=C(\C#N)c2nc3ccccc3s2)cc1,365.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13023,292.067034,3.397
+266,COc1ccc(-c2cnc(-c3cccnc3)o2)cc1OC,330.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11684,282.1004423,3.757
+235,COc1ccc2c3c(cccc13)C(=O)N(C)C2=O,364.0,methanol,https://doi.org/10.1016/j.saa.2005.05.008,DBtag:11494,241.0738932,3.406
+245,N#CC(C#N)=Cc1ccc(-c2ccc(N(c3ccccc3)c3ccccc3)cc2)cc1,461.0,chloroform,https://doi.org/10.1016/j.jphotochem.2012.10.002,DBtag:11572,397.1578976,2.689
+182,COc1ccc(C(=O)/C=C2\C(=O)Nc3ccccc32)c(OC)c1,333.0,hexane,https://doi.org/10.1016/j.molstruc.2011.12.043,DBtag:11294,309.100108,3.723
+505,COc1ccc(-c2nc3c(ccc4ccccc43)oc2=O)cc1,410.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12785,303.0895433,3.024
+594,O=C1C=C(Nc2ccc([N+](=O)[O-])cc2)C(=O)c2ccccc21,451.0,methanol,https://doi.org/10.1016/j.molstruc.2014.03.044,DBtag:13877,294.0640568,2.749
+592,O=C1C=C(Nc2cc(F)ccc2F)C(=O)c2ccccc21,450.0,methanol,https://doi.org/10.1016/j.molstruc.2014.03.044,DBtag:13873,285.060135,2.755
+17,CN(C)CCNc1ccc2c3c(cccc13)C(=O)N(c1ccc(O)cc1)C2=O,430.0,chloroform,https://doi.org/10.1016/j.jlumin.2018.08.011,DBtag:10344,375.1582915,2.883
+380,Cc1ccc(C2=Cc3c4ccccc4c4ccccc4[n+]3[B-](F)(F)O2)cc1,437.0,chloroform,DOI: 10.1021/acs.joc.6b02732,DBtag:12157,359.129301,2.837
+237,CCN(CC)c1ccc(C=Cc2nc3nc4ccccc4nc3s2)c(OC)c1,485.0,methanol,https://doi.org/10.1016/S1010-6030(00)00360-9,DBtag:11511,390.1514323,2.556
+488,CCCCN1C(=O)c2cccc3c(OC)ccc(c23)C1=O,484.0,dimethylsulfoxide,https://doi.org/10.1021/jacs.9b09220,DBtag:12755,283.1208434,2.562
+154,COc1ccc2ccccc2c1C1=CC(c2ccccc2)=C(c2ccccc2)C1,340.0,dichloromethane,https://doi.org/10.1016/j.dyepig.2017.08.035,DBtag:11098,374.1670653,3.647
+123,CCOC(=O)CSc1nc(C)c(CC)c(C#N)c1C#N,357.0,benzene,https://doi.org/10.1016/j.tet.2019.130465,DBtag:11020,289.0884977,3.473
+406,C1=C(c2ccccc2)C(c2ccccc2)=CC1c1ccccc1,290.0,tetrahydrofuran,DOI: 10.1021/acs.jpcc.7b02125,DBtag:12242,294.1408506,4.275
+573,CCN1CCN(c2ccc(/N=N/c3ccc(C(=O)OC)cc3)cc2)CC1,419.0,ethyl ethanoate,https://doi.org/10.1016/j.dyepig.2017.11.002,DBtag:13157,352.189926,2.959
+75,COC1=[N+]2C(=C(c3ccccc3)c3ccc(OC)n3[B-]2(F)F)C=C1,510.0,acetonitrile,https://doi.org/10.1016/j.dyepig.2018.01.043,DBtag:10595,328.1194646,2.431
+520,N#C/C=C/c1ccc2ccc3cccc4ccc1c2c34,371.5,toluene,https://doi.org/10.1016/S0009-2614(97)00394-1,DBtag:12885,253.0891494,3.337
+587,O=C1C=C(Nc2ccccc2F)C(=O)c2ccccc21,448.0,methanol,https://doi.org/10.1016/j.molstruc.2014.03.044,DBtag:13868,267.0695568,2.768
+315,CC1=CC(C)=[N+]2C1=C(c1ccc3cccnc3n1)c1c(C)cc(C)n1[B-]2(F)F,506.0,hexane,https://doi.org/10.1016/j.dyepig.2014.01.022,DBtag:11785,376.1670834,2.45
+532,C/C(=C\c1ccc(Cl)cc1)c1nc2ccccc2s1,320.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13014,285.0378981,3.875
+553,COc1ccc(/C=C/c2nc3ccccc3o2)cc1,330.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13035,251.0946287,3.757
+11,COC(=O)c1noc(-c2ccccc2)c1Cl,307.0,cyclohexane,https://doi.org/10.1016/j.cplett.2005.08.056,DBtag:10309,237.0192708,4.039
+136,Cc1ccc(C)n1-c1cccc(C#N)c1,259.0,hexane,https://doi.org/10.1016/j.cplett.2005.06.088,DBtag:11063,196.1000484,4.787
+311,CCn1c(=O)nc2n(C)c3cc(C)ccc3nc-2c1=O,446.0,methanol,https://doi.org/10.1016/j.jphotochem.2004.08.022,DBtag:11753,270.1116757,2.78
+608,C/C=C/C1=N/C(=C\c2ccc(O)cc2)C(=O)N1C,401.0,water,DOI: 10.1021/ol0200403,DBtag:17888,242.1055277,3.092
+270,COc1ccc(/C=C/c2ncc(-c3ccccc3)o2)cc1OC,355.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11688,307.1208434,3.493
+386,Nc1ccc2c(c1)-c1ccccc1C2=O,409.0,acetonitrile,DOI: 10.1021/jp980158u,DBtag:12174,195.0684139,3.031
+604,O=[N+]([O-])c1ccccc1O,411.0,water,10.1021/acsearthspacechem.9b00328,DBtag:16975,139.026943,3.017
+359,O=CC1=Cc2cocc2C=C(C=O)C1,303.0,chloroform,https://doi.org/10.1016/j.dyepig.2017.04.035,DBtag:12003,188.0473441,4.092
+68,CCOC(=O)/C=C/c1cc2ccc(O)cc2oc1=O,367.0,ethanol,https://doi.org/10.1016/j.dyepig.2009.01.001,DBtag:10571,260.0684735,3.378
+510,COc1ccc2ccc3oc(=O)c(C)nc3c2c1,368.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12790,241.0738932,3.369
+110,CCN(CC)c1ccc(-c2ccc(-c3nc4ccccc4c(=O)[nH]3)s2)cc1,410.0,toluene,DOI: 10.1016/j.mencom.2018.01.002,DBtag:10880,375.1405333,3.024
+239,Cc1cc(C)nc(N)n1,297.0,ethanol,https://doi.org/10.1016/S1386-1425(01)00550-9,DBtag:11527,123.0796473,4.175
+489,CCCCN1C(=O)c2cccc3c(N(C)C)ccc(c23)C1=O,428.0,dimethylsulfoxide,https://doi.org/10.1021/jacs.9b09220,DBtag:12756,296.1524779,2.897
+543,N#C/C(=C\c1ccccc1)c1nc2ccccc2s1,350.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13025,262.0564693,3.542
+236,CCN(CC)c1ccc(C=Cc2nc3nc4ccccc4nc3s2)cc1,490.0,methanol,https://doi.org/10.1016/S1010-6030(00)00360-9,DBtag:11503,360.1408676,2.53
+79,COc1ccc2n1[B-](F)(F)[N+]1=C(SC#N)C=CC1=C2c1ccccc1,517.0,hexane,https://doi.org/10.1016/j.dyepig.2018.01.043,DBtag:10618,355.0762198,2.398
+567,O=[N+]([O-])c1cc(/N=N/c2cc3c4c(c2)CCCN4CCC3)cc([N+](=O)[O-])c1,513.0,ethyl ethanoate,https://doi.org/10.1016/j.dyepig.2017.11.002,DBtag:13151,367.128054,2.417
+376,CC1=[N+]2C(=C(c3ccc(N4CCOCC4)cc3)c3ccc(C)n3[B-]2(F)F)C=C1,511.0,toluene,10.1021/jp052626n,DBtag:12127,381.1823992,2.426
+407,Cc1c2ccncc2c(C)c2c1[nH]c1ccccc12,294.0,methanol,DOI: 10.1021/jp062778y,DBtag:12250,246.1156984,4.217
+452,F[B-]1(F)OC(c2ccccc2)=C(c2ccccc2)c2sc3ccccc3[n+]21,360.0,tetrahydrofuran,https://doi.org/10.1016/j.dyepig.2015.06.020,DBtag:12519,377.0857219,3.444
+282,COc1ccc(C#Cc2ncc(-c3ccccc3)o2)cc1OC,330.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11700,305.1051933,3.757
+572,CCN1CCN(c2ccc(/N=N/c3ccc(C(F)(F)F)cc3)cc2)CC1,414.0,ethyl ethanoate,https://doi.org/10.1016/j.dyepig.2017.11.002,DBtag:13156,362.1718313,2.995
+615,Nc1cc2nc3cc(Cl)c(Cl)cc3nc2cc1N,442.0,ethanol,DOI: 10.1021/acs.joc.5b01339,DBtag:18620,278.0126016,2.805
+625,CCOC(=O)c1cc2ccc3ccccc3c2c(C#N)c1N,435.0,toluene,DOI: 10.1021/acs.joc.9b0299,DBtag:19108,290.1055277,2.85
+498,O=c1oc2ccccc2nc1-c1ccccc1,332.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12777,223.0633285,3.734
+565,FC(F)(F)c1ccc(/N=N/c2cc3c4c(c2)CCCN4CCC3)cc1,466.0,ethyl ethanoate,https://doi.org/10.1016/j.dyepig.2017.11.002,DBtag:13149,345.1452822,2.661
+336,Cn1cccc1-c1cc(C#N)ccc1C#N,364.0,diethyl ether,https://doi.org/10.1016/j.cplett.2005.06.019,DBtag:11855,207.0796473,3.406
+595,COc1ccc(NC2=CC(=O)c3ccccc3C2=O)cc1,479.0,methanol,https://doi.org/10.1016/j.molstruc.2014.03.044,DBtag:13881,279.0895433,2.588
+538,C(=C/c1nc2ccccc2s1)\c1ccccc1,340.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13020,237.0612204,3.647
+121,CCOC(=O)CSc1nc(C)c(C)c(C#N)c1C#N,358.0,benzene,https://doi.org/10.1016/j.tet.2019.130465,DBtag:11018,275.0728477,3.463
+117,CN(C)c1ccc(/C=C/C=C/c2ccc(C#N)cc2)cc1,402.0,acetonitrile,https://doi.org/10.1016/j.cplett.2004.10.154,DBtag:10989,274.1469986,3.084
+478,NS(=O)(=O)c1ccc(N2N=C(c3ccc(O)cc3)CC2c2ccccc2)cc1,359.0,tetrahydrofuran,https://doi.org/10.1016/j.jphotochem.2017.10.010,DBtag:12660,393.1147125,3.454
+156,N#Cc1ccc2nc3[nH]c(=O)[nH]c(=O)c3nc2c1,387.0,"1,2-dichloroethane",https://doi.org/10.1016/j.theochem.2004.11.058,DBtag:11105,239.0443244,3.204
+16,CCCCNc1ccc2c3c(cccc13)C(=O)N(c1ccc(O)cc1)C2=O,428.0,chloroform,https://doi.org/10.1016/j.jlumin.2018.08.011,DBtag:10343,360.1473925,2.897
+513,O=c1oc2c(ccc3cc(O)ccc32)nc1-c1ccccc1,406.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12794,289.0738932,3.054
+13,CCNc1cccc2c1C(=O)c1ccccc1C2=O,510.0,dichloromethane,http://dx.doi.org/10.1016/j.molstruc.2016.03.016,DBtag:10340,251.0946287,2.431
+377,O=c1[nH]c(=O)n([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)cc1-c1cc2ccccc2s1,322.0,dioxane,DOI: 10.1021/ol103147t,DBtag:12137,376.0729072,3.85
+36,Cc1ccc2c(CC(=O)NN)coc2c1,278.0,acetonitrile,https://doi.org/10.1016/j.molstruc.2019.03.063,DBtag:10487,204.0898776,4.46
+30,O=c1oc2ccccc2cc1-c1nc2ccccc2o1,354.0,tetrahydrofuran,https://doi.org/10.1016/S1386-1425(02)00164-6,DBtag:10443,263.0582431,3.502
+326,CC(C)(C)c1cc2c(c(C(C)(C)C)c1)O[B-](F)(F)[n+]1c-2[nH]c(=O)c2ccccc21,366.0,toluene,https://doi.org/10.1016/j.jfluchem.2019.03.005,DBtag:11828,398.1977149,3.388
+127,CCOC(=O)CSc1nc2c(c(C#N)c1C#N)CCCCCC2,360.0,benzene,https://doi.org/10.1016/j.tet.2019.130465,DBtag:11024,329.1197978,3.444
+530,COc1ccc(/C=C(\C)c2nc3ccccc3s2)cc1,330.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13012,281.0874351,3.757
+577,CCOC(=O)c1c2c3c(ccc(OC)c3c3cc4ccccc4cc13)N(C)C2=O,406.0,acetonitrile,https://doi.org/10.1016/j.tet.2019.130638,DBtag:13168,385.1314081,3.054
+290,CN(C)c1ccc(/C=C/c2cnc(/C=C/c3ccc(C#N)cc3)o2)cc1,432.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11708,341.1528122,2.87
+361,O=CC1=Cc2c(-c3ccccc3)oc(-c3ccccc3)c2C=C(C=O)C1,364.0,chloroform,https://doi.org/10.1016/j.dyepig.2017.04.035,DBtag:12005,340.1099444,3.406
+528,N#Cc1ccc(C=C2Oc3cccc(O)c3C2=O)cc1,389.0,acetonitrile,https://doi.org/10.1016/j.saa.2013.07.041,DBtag:12981,263.0582431,3.187
+55,COC1=[N+]2C(=C(c3ccc(C)cc3)c3ccc(OC)n3[B-]2(F)F)C=C1,510.0,methanol,https://doi.org/10.1016/j.cplett.2005.12.098,DBtag:10546,342.1351146,2.431
+387,Nc1cccc2c1-c1ccccc1C2=O,451.0,acetonitrile,DOI: 10.1021/jp980158u,DBtag:12178,195.0684139,2.749
+7,CCOC(=O)C1=C(N)n2c(=O)c3ccccc3c(=O)n2C1c1ccccc1,364.0,dimethylsulfoxide,doi:10.1016/j.tetlet.2011.08.111,DBtag:10305,363.121906,3.406
+588,O=C1C=C(Nc2cccc(F)c2)C(=O)c2ccccc21,459.0,methanol,https://doi.org/10.1016/j.molstruc.2014.03.044,DBtag:13869,267.0695568,2.701
+167,CN(C)c1ccc(C#N)cc1,280.2559415,hexane,https://doi.org/10.1016/S0009-2614(99)00316-4,DBtag:11149,146.0843983,4.424
+331,COc1ccc2c(c1)-c1nc(-c3ccccc3)c3ccccc3[n+]1[B-](F)(F)O2,434.0,toluene,https://doi.org/10.1016/j.jfluchem.2019.03.005,DBtag:11834,376.1194646,2.857
+31,O=c1[nH]c2ccccc2[nH]1,284.99772,acetone,https://doi.org/10.1016/j.molliq.2005.02.004,DBtag:10456,134.0480128,4.35
+135,Cc1ccc(C)n1-c1ccc(C#N)cc1,275.0,hexane,https://doi.org/10.1016/j.cplett.2005.06.088,DBtag:11058,196.1000484,4.509
+99,Oc1cccc(/N=C/c2ccccc2Oc2ccccc2)c1,320.0,hexane,https://doi.org/10.1016/j.molliq.2017.07.070,DBtag:10691,289.1102787,3.875
+602,O=c1c2ccccc2n2c3ccccc3c(=O)c3cccc1c32,432.9648895,toluene,DOI: 10.1002/adom.201801536,DBtag:16811,297.0789786,2.864
+384,Nc1cccc2c1C(=O)c1ccccc1-2,420.0,acetonitrile,DOI: 10.1021/jp980158u,DBtag:12166,195.0684139,2.952
+201,c1ccc(-c2ccc(-c3ccc(-c4ccccc4)cc3)cc2)cc1,310.0,dioxane,https://doi.org/10.1016/1010-6030(89)87112-6,DBtag:11450,306.1408506,3.999
+550,Cc1ccc(/C=C(\c2ccccc2)c2nc3ccccc3o2)cc1,325.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13032,311.1310142,3.815
+621,Nc1nc2ccccc2[n+]([O-])n1,407.0,acetonitrile,DOI: 10.1021/acs.joc.7b03035,DBtag:18825,162.0541608,3.046
+130,CCOC(=O)c1sc2nc(-c3ccc(OC)cc3)c(C)c(C#N)c2c1N,417.0,benzene,https://doi.org/10.1016/j.tet.2019.130465,DBtag:11027,367.0990624,2.973
+611,CCC1=C(C)c2cc3c(OC)cc(OC)cc3c(=O)n2C1=O,434.0,chloroform,DOI: 10.1021/acs.joc.6b01998,DBtag:18374,299.115758,2.857
+309,COc1ccccc1-c1nc2c([nH]1)C1=CC(=O)S[C@]1(C)[C@@]1(C)SC(=O)C=C21,390.0,acetonitrile,https://doi.org/10.1016/j.tet.2012.12.057,DBtag:11748,396.0602344,3.179
+564,N#Cc1ccc(/N=N/c2cc3c4c(c2)CCCN4CCC3)cc1,487.0,ethyl ethanoate,https://doi.org/10.1016/j.dyepig.2017.11.002,DBtag:13148,302.1531466,2.546
+170,c1ccc2cc(-n3c4ccccc4c4ccccc43)ccc2c1,318.0,cyclohexane,https://doi.org/10.1016/j.cplett.2005.12.092,DBtag:11185,293.1204495,3.899
+189,COC(=O)C(C)NC(=O)CCNc1cccc2ccccc12,331.0,ethanol,https://doi.org/10.1016/j.tet.2007.09.042,DBtag:11361,300.1473925,3.746
+177,O=C1Nc2ccccc2/C1=C/C(=O)c1ccccc1,333.0,hexane,https://doi.org/10.1016/j.molstruc.2011.12.043,DBtag:11236,249.0789786,3.723
+56,Cc1cc2c(o1)c(C)cc1ccc(=O)oc12,305.0,ethanol,doi:10.1016/j.jphotochem.2005.04.035,DBtag:10556,214.0629942,4.065
+179,Cc1ccc(C(=O)/C=C2\C(=O)Nc3ccccc32)cc1,332.0,hexane,https://doi.org/10.1016/j.molstruc.2011.12.043,DBtag:11260,263.0946287,3.734
+629,CCN(CC)c1cc2ccc3cc(C#N)cc4ccc(c1)c2c34,437.0,hexane,DOI: 10.1021/acs.joc.5b00618,DBtag:19681,298.1469986,2.837
+388,CNc1ccc2c(c1)C(=O)c1ccccc1-2,508.0,acetonitrile,DOI: 10.1021/jp980158u,DBtag:12186,209.084064,2.441
+185,O=C1Nc2ccccc2/C1=C/C(=O)c1ccc([N+](=O)[O-])cc1,340.0,hexane,https://doi.org/10.1016/j.molstruc.2011.12.043,DBtag:11330,294.0640568,3.647
+295,CCN(CC)c1ccc(/N=N/c2cc3c(=O)[nH][nH]c(=O)c3cc2[N+](=O)[O-])cc1,514.0,dimethylformamide,https://doi.org/10.1016/j.dyepig.2014.12.019,DBtag:11722,382.1389531,2.412
+308,C[C@]12SC(=O)C=C1c1nc(-c3ccccc3O)[nH]c1C1=CC(=O)S[C@@]12C,455.0,acetonitrile,https://doi.org/10.1016/j.tet.2012.12.057,DBtag:11747,382.0445843,2.725
+322,Oc1ccccc1/C=N/N=C/c1ccccc1O,361.0,hexane,https://doi.org/10.1016/j.cplett.2008.09.030,DBtag:11808,240.0898776,3.434
+191,COC(=O)CNC(=O)CCNc1cccc2ccccc12,330.0,ethanol,https://doi.org/10.1016/j.tet.2007.09.042,DBtag:11363,286.1317424,3.757
+536,COc1ccc(/C=C/c2nc3ccccc3s2)cc1,350.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13018,267.071785,3.542
+192,COC(=O)C(NC(=O)CCNc1cccc2ccccc12)c1ccccc1,330.0,ethanol,https://doi.org/10.1016/j.tet.2007.09.042,DBtag:11364,362.1630426,3.757
+150,CN(C)c1ccc(C=C/C=C/C=C/c2ccc(C#N)cc2)cc1,412.0,hexane,https://doi.org/10.1016/j.chemphys.2006.05.019,DBtag:11088,300.1626486,3.009
+115,Cc1cc(O)c(C(C)C)cc1/N=C/c1ccc(C(F)(F)F)cc1,355.0,cyclohexane,https://doi.org/10.1016/j.jlumin.2018.02.007,DBtag:10951,321.1340489,3.493
+71,F[B-]1(F)n2cccc2C(c2ccccc2)=C2C=CC(N3CCOCC3)=[N+]21,473.0,acetonitrile,https://doi.org/10.1016/j.dyepig.2018.01.043,DBtag:10575,353.151099,2.621
+328,F[B-]1(F)Oc2ccccc2-c2nc(-c3ccccc3)c3cc(Cl)ccc3[n+]21,395.0,toluene,https://doi.org/10.1016/j.jfluchem.2019.03.005,DBtag:11831,380.0699275,3.139
+181,COc1ccc(C(=O)/C=C2\C(=O)Nc3ccccc32)cc1,339.0,dichloromethane,https://doi.org/10.1016/j.molstruc.2011.12.043,DBtag:11286,279.0895433,3.657
+64,C#Cc1ccc2ccc3oc(=O)cc(C)c3c2c1,362.0,ethanol,https://doi.org/10.1016/j.dyepig.2009.01.001,DBtag:10566,234.0680796,3.425
+554,C(=C/c1nc2ccccc2o1)\c1ccccc1,320.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13036,221.084064,3.875
+390,CNc1cccc2c1-c1ccccc1C2=O,471.0,acetonitrile,DOI: 10.1021/jp980158u,DBtag:12194,209.084064,2.632
+527,CN(C)c1ccc(C=C2Oc3cccc(O)c3C2=O)cc1,449.0,acetonitrile,https://doi.org/10.1016/j.saa.2013.07.041,DBtag:12979,281.1051933,2.761
+52,Cc1ccc(C2=C3C=CC(Cl)=[N+]3[B-](F)(F)n3c(Cl)ccc32)cc1,508.0,methanol,https://doi.org/10.1016/j.cplett.2005.12.098,DBtag:10527,350.0360406,2.441
+599,CN(C)c1ccc(/C=C/c2ccc([N+](=O)[O-])c(O)c2)cc1,455.0,methanol,https://doi.org/10.1016/j.jphotochem.2014.02.013,DBtag:15218,284.1160924,2.725
+124,CCOC(=O)c1sc2nc(C)c(CC)c(C#N)c2c1N,412.0,benzene,https://doi.org/10.1016/j.tet.2019.130465,DBtag:11021,289.0884977,3.009
+149,CN(C)c1ccc(/C=C/c2ccc(C#N)cc2)cc1,378.0,hexane,https://doi.org/10.1016/j.chemphys.2006.05.019,DBtag:11080,248.1313485,3.28
+442,Cc1cc(C(F)(F)F)nc2c1ccc1nc(-c3ccc(Cl)cc3)cn12,376.5,hexane,https://doi.org/10.1016/S1386-1425(99)00200-0,DBtag:12470,361.0593597,3.293
+606,O=[N+]([O-])c1ccc(O)c(O)c1,423.0,water,10.1021/acsearthspacechem.9b00328,DBtag:16978,155.0218576,2.931
+367,OB(O)c1ccc(-c2ccc(N(c3ccccc3)c3ccccc3)cc2)cc1,332.8,cyclohexane,https://doi.org/10.1016/j.jphotochem.2004.08.001,DBtag:12018,365.1587093,3.725
+67,Cc1cc(=O)oc2cc3cc(-c4cn(Cc5ccccc5)nn4)ccc3cc12,339.0,ethanol,https://doi.org/10.1016/j.dyepig.2009.01.001,DBtag:10570,367.1320768,3.657
+258,Cc1ccc(-c2cc(-c3ccccc3)c(C#N)c(=S)[nH]2)cc1,400.0,ethanol,https://doi.org/10.1016/S1010-6030(00)00359-2,DBtag:11594,302.0877694,3.1
+19,O=C1O/C(=C2/C(=O)Oc3ccccc32)C(O)=C1c1ccccc1,388.0,chloroform,https://doi.org/10.1016/j.jphotobiol.2008.12.008,DBtag:10379,306.0528234,3.195
+600,N#Cc1c2nc3ccccn3c2nc2nc3ccccn3c12,455.0,cyclohexane,https://doi.org/10.1016/j.molstruc.2016.08.085,DBtag:15267,284.0810443,2.725
+500,COc1ccc(-c2nc3ccccc3oc2=O)cc1,372.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12779,253.0738932,3.333
+358,COc1c2ccccc2c(-c2ccccc2)c2ccccc12,378.0,dichloromethane,https://doi.org/10.1016/j.jphotochem.2004.01.020,DBtag:11988,284.1201151,3.28
+509,Cc1nc2c(ccc3ccccc32)oc1=O,364.0,benzene,https://doi.org/10.1016/j.jphotochem.2008.06.014,DBtag:12789,211.0633285,3.406
+37,COc1ccc2c(CC(=O)NN)coc2c1,290.0,acetonitrile,https://doi.org/10.1016/j.molstruc.2019.03.063,DBtag:10497,220.0847922,4.275
+114,CCc1ccc(/C=N/c2cc(C(C)C)c(O)cc2C)cc1,344.0,cyclohexane,https://doi.org/10.1016/j.jlumin.2018.02.007,DBtag:10934,281.1779644,3.604
+118,Cc1cc(N(C)C)cc(C)c1/C=C/C=C/c1ccc(C#N)cc1,390.0,hexane,https://doi.org/10.1016/j.cplett.2004.10.154,DBtag:10990,302.1782987,3.179
+14,NCCNc1cccc2c1C(=O)c1ccccc1C2=O,510.0,dichloromethane,http://dx.doi.org/10.1016/j.molstruc.2016.03.016,DBtag:10341,266.1055277,2.431
+540,CN(C)c1ccc(/C=C(\C#N)c2nc3ccccc3s2)cc1,430.0,cyclohexane,https://doi.org/10.1016/S1010-6030(00)00230-6,DBtag:13022,305.0986685,2.883
+306,COc1ccc(-c2nc3c([nH]2)C2=CC(=O)S[C@]2(C)[C@@]2(C)SC(=O)C=C32)cc1,392.0,acetonitrile,https://doi.org/10.1016/j.tet.2012.12.057,DBtag:11745,396.0602344,3.163
+327,F[B-]1(F)Oc2ccccc2-c2nc(-c3ccccc3)c3ccccc3[n+]21,386.0,toluene,https://doi.org/10.1016/j.jfluchem.2019.03.005,DBtag:11830,346.1088999,3.212
+623,COc1ccc2nc(N)n[n+]([O-])c2c1,430.0,acetonitrile,DOI: 10.1021/acs.joc.7b03035,DBtag:18827,192.0647255,2.883
+276,COc1cc(/C=C/c2ncc(-c3ccncc3)o2)cc(OC)c1OC,352.0,dichloromethane,https://doi.org/10.1016/j.tetlet.2013.04.037,DBtag:11694,338.1266571,3.522
+614,Nc1cc2nc3cc(F)c(F)cc3nc2cc1N,433.0,ethanol,DOI: 10.1021/acs.joc.5b01339,DBtag:18619,246.0717027,2.863
+596,Cn1nc(-c2ccccc2)c2nc3cc(Cl)ccc3nc21,427.0,acetonitrile,https://doi.org/10.1016/j.jlumin.2018.02.037,DBtag:14206,294.067224,2.904
+583,CN(C)c1ccc2c3c(ccc2c1)CCCC3=O,406.0,ethanol,https://doi.org/10.1016/j.jphotochem.2012.04.011,DBtag:13365,239.1310142,3.054
+601,N#Cc1c2nc3ccccn3c2nc2c1nc1ccccn12,410.0,cyclohexane,https://doi.org/10.1016/j.molstruc.2016.08.085,DBtag:15272,284.0810443,3.024
+183,O=C1Nc2ccccc2/C1=C/C(=O)c1ccc(Cl)cc1,334.0,hexane,https://doi.org/10.1016/j.molstruc.2011.12.043,DBtag:11306,283.0400062,3.712
+196,CC1(C)CC(=O)C2=C(C1)Oc1ccc3ccc(O)cc3c1C2c1ccccn1,341.0,methanol,https://doi.org/10.1016/j.jphotochem.2013.11.014,DBtag:11407,371.1521435,3.636

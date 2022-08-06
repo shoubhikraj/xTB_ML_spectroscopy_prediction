@@ -1,0 +1,70 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "acetonitrile"
+end
+%pal nprocs 4 end
+* xyz 0 1
+C          0.26690       -3.85550        0.13410
+N         -0.00260       -2.44740        0.14590
+N         -1.25830       -1.97320        0.21090
+C         -1.23210       -0.65720        0.21560
+C         -2.43120        0.15250        0.27620
+C         -3.68680       -0.45460        0.33620
+C         -4.82830        0.31940        0.39290
+C         -4.73330        1.70290        0.39040
+C         -3.48930        2.31050        0.33110
+C         -2.34060        1.54450        0.27420
+C          0.13440       -0.21520        0.15140
+N          0.72210        0.95920        0.13040
+C          2.06470        0.92650        0.06480
+C          2.76370        2.15370        0.04140
+C          4.12660        2.15340       -0.02650
+Cl         4.99340        3.64670       -0.05440
+C          4.86350        0.95160       -0.07550
+C          4.21620       -0.24690       -0.05380
+C          2.80560       -0.30330        0.01780
+N          2.20340       -1.50510        0.04030
+C          0.89120       -1.44000        0.10770
+H         -0.05820       -4.31020        1.07200
+H          1.34020       -3.98610        0.01100
+H         -0.26690       -4.33000       -0.69070
+H         -3.74170       -1.53190        0.33720
+H         -5.79820       -0.15420        0.43920
+H         -5.62850        2.30600        0.43460
+H         -3.41600        3.38830        0.32910
+H         -1.36800        2.00900        0.22770
+H          2.19260        3.06730        0.07880
+H          5.93990        0.99960       -0.12980
+H          4.75520       -1.18050       -0.08970
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "acetonitrile"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

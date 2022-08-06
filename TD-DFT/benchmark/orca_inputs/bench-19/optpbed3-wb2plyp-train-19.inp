@@ -1,0 +1,71 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dimethylsulfoxide"
+end
+%pal nprocs 4 end
+* xyz 0 1
+O         -1.10270        2.11530       -1.72360
+C         -0.39350        1.36340       -1.09310
+N          1.00170        1.42490       -1.09150
+C          1.59780        0.46820       -0.30070
+C          3.02770        0.34250       -0.15220
+C          3.91620        1.19900       -0.81370
+C          5.27940        1.05250       -0.65340
+C          5.78420        0.05440        0.16560
+C          4.91430       -0.79940        0.82620
+C          3.54920       -0.66220        0.67320
+C          0.57570       -0.27340        0.25950
+C          0.26280       -1.37720        1.13530
+O          0.94240       -2.13800        1.77370
+O         -1.12690       -1.46380        1.15210
+C         -1.67790       -0.50200        0.35710
+C         -3.10990       -0.43120        0.24050
+C         -3.70390        0.54460       -0.56920
+C         -5.07890        0.60100       -0.67490
+C         -5.87410       -0.30240        0.01570
+C         -5.29050       -1.27060        0.81960
+C         -3.91730       -1.33930        0.93510
+C         -0.67970        0.24860       -0.20720
+H          1.50060        2.11590       -1.62920
+H          3.54990        1.98470       -1.45770
+H          5.95320        1.72000       -1.16990
+H          6.85130       -0.05570        0.28690
+H          5.30290       -1.57790        1.46490
+H          2.87730       -1.32910        1.18930
+H         -3.08380        1.24580       -1.10540
+H         -5.53640        1.35340       -1.29960
+H         -6.94940       -0.25210       -0.07240
+H         -5.91100       -1.97270        1.35630
+H         -3.45050       -2.08760        1.55660
+*
+
+
+$new_job
+! wb2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "dimethylsulfoxide"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

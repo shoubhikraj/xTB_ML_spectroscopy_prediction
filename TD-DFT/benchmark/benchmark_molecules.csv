@@ -1,0 +1,21 @@
+,SMILES,lambda_max_exp_nm,solvent,reference,description,mol_wt,abs_max_ev
+0,c1ccc(/N=N/c2ccccc2)cc1,319,benzene,photochemCAD,azobenzene,182.0843983,3.887
+1,F[B-]1(F)n2cccc2C=C2C=CC=[N+]21,503.5,cyclohexane,set-ref-30,bodipy,192.0670351,2.462
+2,F[B-]1(F)OC(C#Cc2ccccc2)=CC(c2ccccc2)=[O+]1,401,dichloromethane,http://dx.doi.org/10.1016/j.dyepig.2017.02.005,DBtag:763,296.0820164,3.092
+3,CC1(C)C2=C(c3ccccc31)S(=O)(=O)c1ccccc12,355,dichloromethane,DOI: 10.1021/acs.orglett.7b02337,DBtag:2427,282.0714507,3.493
+4,c1ccc(-c2pc3ccccc3s2)cc1,330,acetonitrile,http://dx.doi.org/10.1021/jo400947u,DBtag:7436,228.0162579,3.757
+5,[O-][n+]1c(/C=C/c2ccccc2)nc(Nc2ccccc2)c2c1CCCC2,416,dichloromethane,https://doi.org/10.1016/j.dyepig.2018.12.067,DBtag:887,343.1684623,2.980
+6,COC(=O)/C(C#N)=c1/cc/c(=c2/cc/c(=C(\C#N)C(=O)OC)s2)s1,550,toluene,DOI: 10.1021/jacs.5b03899,DBtag:2140,358.0081988,2.254
+7,C=Cc1ccc(OC)c(OC)c1,309,cyclohexane,10.1021/jo052123d,DBtag:8099,164.0837296,4.012
+8,N#Cc1ccc(-c2nc(-c3ccccc3)c3ccccn23)cc1,380,dichloromethane,http://dx.doi.org/10.1016/j.dyepig.2016.09.056,DBtag:1622,295.1109474,3.263
+9,c1ccc(-c2cc(-c3ccc4ccc5cccc6ccc3c4c56)ccn2)nc1,342.9943406,ethanol,10.1021/jp000658z,DBtag:7518,356.1313485,3.615
+10,c1ccc2c(c1)ccc1ccc3ccc4ccccc4c3c12,393,chloroform,DOI: 10.1021/acs.orglett.7b00548,DBtag:2109,278.1095504,3.155
+11,N#CC1CC(C(N)=O)N2N=CC=CC12,326,ethanol,set-ref-7,4b,190.0854609,3.803
+12,CCN(CC)c1ccc2cc(-c3nc4ccccc4[nH]3)c(=O)oc2c1,436,ethanol,photochemCAD,coumarin 7,333.1477268,2.844
+13,CCCCN1C(=S)c2cccc3cccc(c23)C1=S,443,dimethylsulfoxide,https://doi.org/10.1021/jacs.9b09220,DBtag:12757,285.0645915,2.799
+14,CN(c1ccccc1)c1c([O-])/c(=[N+](\C)c2ccccc2)c1=O,387,dimethylformamide,http://dx.doi.org/10.1016/j.dyepig.2015.06.025,DBtag:4625,292.1211778,3.204
+15,Cc1cnc(/N=N/c2ccc(-c3cccs3)s2)s1,501,dimethylsulfoxide,set-ref-8,5a,290.9958603,2.475
+16,Cc1nc(-c2ccccc2)c2ccccn12,367,dichloromethane,http://dx.doi.org/10.1016/j.dyepig.2016.09.056,DBtag:1618,208.1000484,3.378
+17,Cc1cc(O)c(C(=O)/C=C/c2cccc(O)c2)c(=O)o1,374,dichloromethane,http://dx.doi.org/10.1016/j.molstruc.2017.07.089,DBtag:1243,272.0684735,3.315
+18,c1ccc(-c2csc(-c3ccncc3)n2)cc1,325,ethanol,https://doi.org/10.1016/j.dyepig.2019.02.051,DBtag:1579,238.0564693,3.815
+19,O=C1NC(c2ccccc2)=C2C(=O)OC(c3ccccc3)=C12,487,dimethylsulfoxide,set-ref-21,12a,289.0738932,2.546

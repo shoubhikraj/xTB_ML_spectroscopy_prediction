@@ -1,0 +1,72 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "methanol"
+end
+%pal nprocs 4 end
+* xyz 0 1
+C          5.17550       -0.12990        0.40560
+C          3.68490       -0.10720        0.28010
+C          2.87730       -0.51630        1.33620
+C          1.50090       -0.48590        1.23300
+C          0.89020       -0.02720        0.06650
+C         -0.56980        0.01290       -0.04560
+C         -1.21120        1.19100       -0.43810
+C         -0.67810        2.46860       -0.72290
+C         -1.73490        3.29340       -1.03500
+C         -2.89420        2.50980       -0.92660
+Cl        -4.48070        3.00480       -1.18890
+N         -2.58360        1.26070       -0.56640
+B         -3.57600        0.09670       -0.27490
+F         -4.27700       -0.21700       -1.41250
+F         -4.42110        0.45380        0.74620
+N         -2.70510       -1.11960        0.15740
+C         -3.13520       -2.34830        0.46010
+Cl        -4.76810       -2.75380        0.47630
+C         -2.05090       -3.19440        0.73960
+C         -0.91510       -2.43050        0.59540
+C         -1.32740       -1.12640        0.23950
+C          1.69600        0.39110       -0.99110
+C          3.07200        0.34300       -0.88410
+H          5.49990       -0.96050        1.02800
+H          5.64780       -0.21080       -0.57020
+H          5.52110        0.79300        0.87260
+H          3.33520       -0.86390        2.25090
+H          0.88740       -0.78820        2.06810
+H          0.36000        2.73230       -0.68200
+H         -1.71160        4.32930       -1.30470
+H         -2.12610       -4.22910        1.00450
+H          0.10100       -2.75140        0.71110
+H          1.23490        0.72160       -1.90950
+H          3.68160        0.65870       -1.71820
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "methanol"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

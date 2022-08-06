@@ -1,0 +1,69 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "ethanol"
+end
+%pal nprocs 4 end
+* xyz 0 1
+C          6.03510        0.12290       -0.65810
+C          5.40380        0.66070        0.61850
+O          3.99030        0.79910        0.48590
+C          3.25310       -0.31160        0.66610
+O          3.71730       -1.38770        0.95080
+C          1.82470       -0.01510        0.47810
+C          0.90240       -0.98030        0.58790
+C         -0.52560       -0.83200        0.42520
+C         -1.16470        0.34420        0.17460
+C         -2.57790        0.39610        0.02730
+C         -3.29100        1.57410       -0.23160
+C         -4.65670        1.55340       -0.36480
+C         -5.36030        0.34760       -0.24270
+O         -6.70180        0.28930       -0.36830
+C         -4.67580       -0.83240        0.01480
+C         -3.29510       -0.80950        0.14920
+O         -2.66670       -1.97570        0.39970
+C         -1.30950       -2.07280        0.55000
+O         -0.84880       -3.16140        0.77210
+H          5.66740       -0.88060       -0.85720
+H          5.78750        0.76450       -1.50050
+H          7.11460        0.08620       -0.54340
+H          5.76750        1.66500        0.84600
+H          5.61630       -0.01300        1.45540
+H          1.59450        1.01310        0.24560
+H          1.23470       -1.98580        0.81680
+H         -0.60770        1.26540        0.08420
+H         -2.74850        2.50250       -0.32590
+H         -5.19860        2.46750       -0.56500
+H         -7.06570        1.16620       -0.54520
+H         -5.21430       -1.76010        0.10950
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "ethanol"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1

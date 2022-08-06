@@ -1,0 +1,58 @@
+! pbe0 d3bj aug-cc-PVTZ RIJCOSX Opt
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "tetrahydrofuran"
+end
+%pal nprocs 4 end
+* xyz 0 1
+C         -3.66380       -0.36380       -0.28030
+C         -2.22720       -0.82380       -0.11840
+O         -1.91070       -1.98870       -0.04440
+N         -1.35610        0.22430       -0.06570
+C          0.03730        0.21030        0.08090
+C          0.77020       -0.96180        0.22850
+C          2.14380       -0.90460        0.37170
+C          2.80860        0.31500        0.37040
+O          4.16020        0.40890        0.50990
+C          2.07650        1.48910        0.22230
+C          0.70640        1.43340        0.07960
+H         -3.95810        0.25220        0.56720
+H         -4.31180       -1.23370       -0.33020
+H         -3.77350        0.21720       -1.19370
+H         -1.75380        1.15000       -0.14640
+H          0.26340       -1.91160        0.22990
+H          2.70530       -1.82220        0.48640
+H          4.53870       -0.47360        0.60310
+H          2.59830        2.43240        0.22160
+H          0.14610        2.35100       -0.03460
+*
+
+
+$new_job
+! b2plyp aug-cc-PVTZ RIJCOSX SP
+%maxcore 4000
+%basis
+ AuxJ "aug-cc-PVTZ/JK"
+ AuxC "aug-cc-PVTZ/C"
+ newGTO H "cc-PVTZ" end
+ newAuxJGTO H "cc-PVTZ/JK" end
+ newAuxCGTO H "cc-PVTZ/C" end
+end
+%cpcm
+ SMD true
+ SMDsolvent "tetrahydrofuran"
+end
+%pal nprocs 4 end
+%tddft
+ nroots 10
+ maxdim 7
+end
+* xyzfile 0 1
